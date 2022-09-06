@@ -15,7 +15,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Core
 		private bool connected;
 		private int sequenceNumber;
 		private PhaseCode phases;
-		private List<long> regulatingControls;
+		private List<long> regulatingControls = new List<long>();
 
         public Terminal(long globalId)
 			: base(globalId)

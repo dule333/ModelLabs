@@ -14,8 +14,8 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         public RegulatingCondEq(long globalId) : base(globalId)
         {
         }
-		private List<long> controls;
-		private long regulatingControl;
+		private List<long> controls = new List<long>();
+		private long regulatingControl = 0;
 		public override bool Equals(object obj)
 		{
 			RegulatingCondEq temp = obj as RegulatingCondEq;

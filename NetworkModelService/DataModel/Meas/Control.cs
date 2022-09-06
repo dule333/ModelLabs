@@ -14,7 +14,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Meas
         public Control(long globalId) : base(globalId)
         {
         }
-        private long regulatingCondEq;
+        private long regulatingCondEq = 0;
         private bool operationInProgress;
         private DateTime timeStamp;
         private UnitMultiplier unitMultiplier;

@@ -18,8 +18,8 @@ namespace FTN.Services.NetworkModelService.DataModel.IES_Projects
         private PhaseCode monitoredPhase;
         private float targetRange;
         private float targetValue;
-		private List<long> regulatingCondEqs;
-		private long terminal;
+		private List<long> regulatingCondEqs = new List<long>();
+		private long terminal = 0;
 
 		public override bool Equals(object obj)
 		{

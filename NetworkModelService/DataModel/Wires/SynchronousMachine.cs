@@ -23,7 +23,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         private SynchronousMachineOperatingMode operatingMode;
         private SynchronousGeneratorType synchronousGeneratorType;
         private SynchronousMachineType type;
-        private long reactiveCapabilityCurve;
+        private long reactiveCapabilityCurve = 0;
 
 		public override bool Equals(object obj)
 		{

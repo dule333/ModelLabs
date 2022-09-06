@@ -16,7 +16,7 @@ namespace FTN.Services.NetworkModelService.DataModel.Wires
         }
         private float coolantTemperature;
         private float hydrogenPressure;
-		private List<long> synchronousMachines;
+		private List<long> synchronousMachines = new List<long>();
 
 		public override bool Equals(object obj)
 		{
